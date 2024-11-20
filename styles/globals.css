@@ -1,0 +1,76 @@
+body {
+  background-color: #f0f4f8;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.text-danger {
+  color: #ff6b6b;
+}
+
+.bg-neobrutalism {
+  background-color: #ffffff;
+  border: 2px solid #333;
+  box-shadow: 8px 8px 0 #333;
+  border-radius: 15px;
+  padding: 16px;
+  margin: 16px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.bg-neobrutalism:hover {
+  transform: translateY(5px);
+  box-shadow: 3px 3px 0 #333;
+}
+
+.bg-pink {
+  background-color: #FE98A3;
+}
+
+.text-pink {
+  color: #FE98A3;;
+}
+
+.bg-yellow {
+  background-color: #FAAE2B;
+}
+
+.text-yellow {
+  color: #FAAE2B;;
+}
+
+.bg-blue {
+  background-color: #8BD3DD;
+}
+
+.text-blue {
+  color: #8BD3DD;;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #ffffff;
+  border: 2px solid #333;
+  box-shadow: 5px 5px 0 #333, -5px -5px 0 #333;
+  border-radius: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer a:hover {
+  color: #000;
+}
